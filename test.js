@@ -42,12 +42,12 @@ const createReq = async () =>
                 //     'Username': 'jgam@alumni.nd.edu',
                 //     'Password': myTotp,
                 // },
-                // "Authorization": 'Basic '+ encoded
+                "Authorization": 'Basic '+ encoded
             },
-            auth: {
-                username: 'jgam@alumni.nd.edu',
-                password: myTotp,
-            }
+            // auth: {
+            //     username: 'jgam@alumni.nd.edu',
+            //     password: myTotp,
+            // }
         };
         console.log("Making req", {URL, reqJSON, config});
         console.log(stringData);
